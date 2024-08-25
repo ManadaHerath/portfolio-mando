@@ -1,5 +1,4 @@
 import theatre from "@/app/assets/theatre.jpg";
-import brickLink from "@/app/assets/brickLink.jpg";
 import payroll from "@/app/assets/payroll.jpg";
 import quietattic from "@/app/assets/quietattic.jpg";
 import thisuraverse from "@/app/assets/thisuraverse.png";
@@ -17,13 +16,6 @@ export const projects = [
         devStack: ["React", "Node.js", "JavaScript", "Express", "MySQL", "GIT"],
         git: "https://github.com/ManadaHerath/Theater-reservation-system",
         img: theatre
-    },
-    {
-        title: "Brick Link",
-        desc: "A platform that allows customers to post construction projects and find contractors. Contractors can submit bids for these projects, and once selected, customers can find engineers, other required roles, and materials—all within a unified system.",
-        devStack: ["React", "Node.js", "JavaScript", "Express", "MongoDB", "GIT"],
-        git: "https://github.com/Dulanga-Manusha/Brick-Link",
-        img: brickLink
     },
     {
         title: "Payroll Management System",
