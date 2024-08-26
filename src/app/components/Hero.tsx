@@ -2,7 +2,7 @@
 import Image from "next/image";
 import linkedin from "@/app/assets/linkedin.png";
 import instagram from "@/app/assets/instagram.png";
-import profilePic from "@/app/assets/luffy.png";
+import profilePic from "@/app/assets/profile2.jpg";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
@@ -85,7 +85,8 @@ const Hero = () => {
           <p className="text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80">
         I am a Computer Science and Engineering undergraduate at the University of Moratuwa. I am a passionate software developer who loves to learn new technologies and build cool stuff. I am a quick learner and a team player who is always ready to take on new challenges. I am a self-motivated individual who is always looking for ways to improve myself and the people around me.
       </p>
-      <Image src={profilePic} alt="profile-pic" className="h-80 w-auto mx-auto mt-20"/>
+      <Image src={profilePic} alt="profile-pic" className="h-80 w-auto mx-auto mt-20 rounded-full"/>
+
         </div>
       </div>
 
